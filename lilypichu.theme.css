@@ -20,7 +20,7 @@
   /* Background (if you want an image replace it by : 
 
 --background-tertiary-alt: url("image-link"); without that => */
-  --background-tertiary-alt: #ffc7d4;
+  --background-tertiary-alt: #ffcebd;
 
   /* Border-radius for the whole theme */
   --border-radius: 20px;
@@ -28,33 +28,33 @@
 
 .theme-dark {
   /* Text */
-  --text-normal: #f8e1e5;
-  --header-primary: #f8e1e5;
-  --interactive-normal: #fab1bd;
-  --channels-default: #f8e1e5;
+  --text-normal: #F8EFE6;
+  --header-primary: #F8EFE6;
+  --interactive-normal: #f0b5a1;
+  --channels-default: #F8EFE6;
 
-  --text-muted: #e2c1c7;
-  --interactive-muted: #ad8c91;
+  --text-muted: #EAD1C1;
+  --interactive-muted: #c7afa7;
 
-  --header-secondary: #e2c1c7;
-  --interactive-hover: #e2c1c7;
-  --interactive-active: #e2c1c7;
+  --header-secondary: #EAD1C1;
+  --interactive-hover: #EAD1C1;
+  --interactive-active: #EAD1C1;
 
   /* Background color */
-  --background-primary: #5e3640;
-  --background-secondary: #49292f;
-  --background-secondary-alt: #3b1d24;
-  --background-tertiary: #220f14;
-  --background-floating: #221115;
-  --background-accent: #c5536c;
+  --background-primary: #4a2f2b;//
+  --background-secondary: #36211d;//
+  --background-secondary-alt: #3d1f1a;//
+  --background-tertiary: #24120f;//
+  --background-floating: #26110d;//
+  --background-accent: #944335;//
   --channeltextarea-background: var(--background-secondary);
   --background-modifier-hover: rgba(56, 31, 31, 0.32);
   --background-modifier-active: rgba(19, 12, 12, 0.32);
   --background-modifier-selected: rgba(31, 21, 21, 0.32);
-  --toast-background: #5e3640 !important;
-  --toast-header: #3b1d24 !important;
-  --toast-contents: #49292f !important;
-  --toast-border: #49292f !important;
+  --toast-background: #4a2f2b !important;//
+  --toast-header: #3d1f1a !important;//
+  --toast-contents: #36211d !important;//
+  --toast-border: #36211d !important;//
   --input-background: var(--background-secondary);
 
   /* Scrollbar */
@@ -68,7 +68,7 @@
   --deprecated-quickswitcher-input-background: var(--background-primary);
 }
 .colorBrand-3cPPsm {
-  color: #c5536c;
+  color: #944335;//
 }
 .colorDefault-CDqZdO.focused-3qFvc8,
 .colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
@@ -77,15 +77,15 @@
 
 /* Buttons */
 .lookFilled-yCfaCM {
-  background-color: #c5536c !important;
+  background-color: #944335 !important;//
 }
 .lookFilled-yCfaCM:active,
 .lookFilled-yCfaCM:hover {
-  background-color: #b64a61 !important;
+  background-color: #C07156 !important;
 }
 .lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
-  color: #c5536c;
-  border-color: #c5536c;
+  color: #944335;//
+  border-color: #944335;//
 }
 
 /* Hover background */
